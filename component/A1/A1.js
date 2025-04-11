@@ -7,7 +7,7 @@ export default function A1() {
   const [hoveredPage, setHoveredPage] = useState("Home");
 
   return (
-    <div className="w-full h-fit min-h-screen pt-[10vh] flex justify-center items-start bg-[#ed3c1f] font-[family-name:var(--font-geist-sans)]">
+    <div className="w-full h-fit min-h-screen pt-[10vh] pb-[10vh] flex justify-center items-start bg-[#ed3c1f] font-[family-name:var(--font-geist-sans)]">
       <div className="w-[80vw] h-fit p-[10px] border-1 rounded-[10px]">
         <div className="w-full h-fit p-[30px] rounded-[10px] bg-[#ebe1ce]">
           <nav className="w-full h-fit flex flex-row justify-between">
@@ -101,12 +101,16 @@ export default function A1() {
               </p>
 
               <div className="w-[80px] h-[0px] p-0 relative">
-                <svg width="200" height="20" className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] scale-[40%]">
+                <svg
+                  width="200"
+                  height="20"
+                  className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] scale-[40%]"
+                >
                   <path
                     d="M 0 10 Q 10 0, 20 10 T 40 10 T 60 10 T 80 10 T 100 10 T 120 10 T 140 10 T 160 10 T 180 10 T 200 10"
                     stroke="#282323"
                     fill="transparent"
-                    stroke-width="4"
+                    strokeWidth="4"
                   />
                 </svg>
               </div>
@@ -133,15 +137,13 @@ export default function A1() {
               </button>
             </div>
 
-            <div className="w-[50%] min-h-[100px] p-[20px]">
-              <Image
-                src={"/raman.png"}
-                alt={"raman"}
-                width={720}
-                height={720}
-                className="object-contain"
-              />
-            </div>
+            <Image
+              src={"/raman.png"}
+              alt={"raman"}
+              width={720}
+              height={720}
+              className="object-contain max-h-[480px] w-[50%] max-w-[480px]"
+            />
           </section>
 
           <footer className="w-full pt-[30px] flex flex-row items-center gap-[30px] text-[14px]">

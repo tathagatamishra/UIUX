@@ -21,3 +21,4 @@ This repo contain different UIUX templates created by me with my own design or d
 - it has a home page which is to display all ui projects
 - click on thumbnail to open the project
 - thumbnail contain the original image of the ui idea
+- this website is not mobile responsive
