@@ -45,7 +45,7 @@ export default function A2() {
         <div className="z-[3] relative w-full h-[30px] flex flex-row justify-between items-center">
           <div className="z-[1] h-[38px] w-[10%] border-[4px] border-l-0 border-[#797979] rounded-r-[10px] absolute left-[10px]"></div>
 
-          <div className="z-[0] h-[38px] w-[40%] absolute left-[4%] bg-[#ffffff]"></div>
+          <div className="z-[0] h-[38px] w-[40%] absolute left-[4%] bg-[color:var(--background)]"></div>
 
           <div className="z-[1] h-[38px] w-[80%] border-[4px] border-r-0 border-[#797979] rounded-l-[10px] absolute right-[10px]"></div>
         </div>
@@ -84,7 +84,7 @@ export default function A2() {
         <div className="z-[3] relative w-full h-[30px] flex flex-row justify-between items-center">
           <div className="z-[1] h-[38px] w-[10%] border-[4px] border-l-0 border-[#797979] rounded-r-[10px] absolute left-[10px]"></div>
 
-          <div className="z-[0] h-[38px] w-[40%] absolute left-[4%] bg-[#ffffff]"></div>
+          <div className="z-[0] h-[38px] w-[40%] absolute left-[4%] bg-[color:var(--background)]"></div>
 
           <div className="z-[1] h-[38px] w-[80%] border-[4px] border-r-0 border-[#797979] rounded-l-[10px] absolute right-[10px]"></div>
         </div>
