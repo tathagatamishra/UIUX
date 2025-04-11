@@ -4,7 +4,6 @@ import React, { useState } from "react";
 
 export default function A1() {
   const [currentPage, setCurrentPage] = useState("Home");
-  const [hoveredPage, setHoveredPage] = useState("Home");
 
   return (
     <div className="w-full h-fit min-h-screen pt-[10vh] pb-[10vh] flex justify-center items-start bg-[#ed3c1f] font-[family-name:var(--font-geist-sans)]">
