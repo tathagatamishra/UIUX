@@ -8,7 +8,7 @@ export default function A1() {
 
   return (
     <div className="w-full h-fit min-h-screen pt-[10vh] pb-[10vh] flex justify-center items-start bg-[#ed3c1f] font-[family-name:var(--font-geist-sans)]">
-      <div className="w-[80vw] h-fit p-[10px] border-1 rounded-[10px]">
+      <div className="w-[80vw] max-w-[1111px] h-fit p-[10px] border-1 rounded-[10px]">
         <div className="w-full h-fit p-[30px] rounded-[10px] bg-[#ebe1ce]">
           <nav className="w-full h-fit flex flex-row justify-between">
             <div className="w-fit min-w-[46px] h-fit outline-2 outline-[#000] rounded-[3px] grid grid-cols-2 grid-rows-2 gap-[2px] p-[2px]">
